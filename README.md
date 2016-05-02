@@ -41,3 +41,11 @@ to input the javascript for this gem:
 
 [Ckeditor]: https://github.com/galetahub/ckeditor
 [Administrate]: https://github.com/thoughtbot/administrate
+
+## About Jemcode
+
+<img src="https://www.jemco.de/logo.svg" width="400" alt="Jemcode">
+
+Heroku Postico is maintained and funded by Jemcode Limited. We are [available for hire][hire].
+
+[hire]: https://www.jemco.de?utm_source=github

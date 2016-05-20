@@ -10,7 +10,7 @@ A plugin for adding [Ckeditor] support in [Administrate].
 Add to your `Gemfile`:
 
 ```ruby
-gem "administrate-field-ckeditor", "~> 0.0.1"
+gem "administrate-field-ckeditor", "~> 0.0.2"
 ```
 
 Run:
@@ -24,22 +24,6 @@ Add to your `FooDashboard`:
 ATTRIBUTE_TYPES = [
   bars: Field::Ckeditor,
 ]
-```
-
-## Stopgap fix for javascript
-
-At the moment, Administrate doesn't automatically load javascripts from plugins.
-To fix this, you need to generate the Administrate javascript file:
-
-```bash
-$ rails g administrate:views:layout
-```
-
-And then add a line to `app/views/admin/application/_javascript.html.erb`
-to input the javascript for this gem:
-
-```
-<%= javascript_include_tag "administrate-field-ckeditor/application" %>
 ```
 
 [Ckeditor]: https://github.com/galetahub/ckeditor

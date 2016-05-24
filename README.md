@@ -31,7 +31,7 @@ ATTRIBUTE_TYPES = [
 
 ## About Jemcode
 
-<img src="https://www.jemco.de/logo.svg" width="400" alt="Jemcode">
+[<img src="https://www.jemco.de/logo.svg" width="400" alt="Jemcode">][hire]
 
 Administrate::Field::Ckeditor is maintained and funded by Jemcode Limited. We are [available for hire][hire].
 

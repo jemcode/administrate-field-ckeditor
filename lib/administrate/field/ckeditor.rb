@@ -11,6 +11,22 @@ module Administrate
       class Engine < ::Rails::Engine
         Administrate::Engine.add_javascript "administrate-field-ckeditor/application"
       end
+      
+      include ActionView::Helpers::SanitizeHelper
+      include ActionView::Helpers::OutputSafetyHelper
+      
+      def truncate_stripped
+        strip_tags(data.to_s)[0..truncation_length]
+      end
+      
+      def to_html
+        raw(data.to_s)
+      end
+      
+      def ckeditor_options
+        options.fetch(:ckeditor, {})
+      end
+      
     end
   end
 end

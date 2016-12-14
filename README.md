@@ -29,7 +29,7 @@ ATTRIBUTE_TYPES = [
 Or with ckeditor options:
 ```ruby
 ATTRIBUTE_TYPES = [
-  quxes: Field::Ckeditor.with_options({ckeditor: {uiColor: '#800000'}}),
+  quxes: Field::Ckeditor.with_options({ ckeditor: { uiColor: '#800000' }}),
 ]
 ```
 

@@ -26,6 +26,13 @@ ATTRIBUTE_TYPES = [
 ]
 ```
 
+Or with ckeditor options:
+```ruby
+ATTRIBUTE_TYPES = [
+  quxes: Field::Ckeditor.with_options({ckeditor: {uiColor: '#800000'}}),
+]
+```
+
 [Ckeditor]: https://github.com/galetahub/ckeditor
 [Administrate]: https://github.com/thoughtbot/administrate
 

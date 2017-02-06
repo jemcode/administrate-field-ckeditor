@@ -10,7 +10,7 @@ A plugin for adding [Ckeditor] support in [Administrate].
 Add to your `Gemfile`:
 
 ```ruby
-gem "administrate-field-ckeditor", "~> 0.0.2"
+gem "administrate-field-ckeditor", "~> 0.0.3"
 ```
 
 Run:
@@ -29,7 +29,7 @@ ATTRIBUTE_TYPES = [
 Or with ckeditor options:
 ```ruby
 ATTRIBUTE_TYPES = [
-  quxes: Field::Ckeditor.with_options({ckeditor: {uiColor: '#800000'}}),
+  bars: Field::Ckeditor.with_options({ ckeditor: { uiColor: '#800000' }}),
 ]
 ```
 

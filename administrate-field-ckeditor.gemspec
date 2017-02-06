@@ -2,7 +2,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name = "administrate-field-ckeditor"
-  gem.version = "0.0.2"
+  gem.version = "0.0.3"
   gem.authors = ["Rikki Pitt"]
   gem.email = ["rikkipitt@gmail.com"]
   gem.homepage = "https://github.com/jemcode/administrate-field-ckeditor"

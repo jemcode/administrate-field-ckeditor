@@ -27,3 +27,17 @@ module Administrate
     end
   end
 end
+
+module Ckeditor
+  module Utils
+    class << self
+      alias_method :old_js_init_ckeditor, :js_init_ckeditor
+
+      def js_init_ckeditor(dom_id, replace)
+        %(document.addEventListener("DOMContentLoaded", function(event) {
+          #{old_js_init_ckeditor(dom_id, replace)}
+        });)
+      end
+    end
+  end
+end

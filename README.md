@@ -10,7 +10,7 @@ A plugin for adding [Ckeditor] support in [Administrate].
 Add to your `Gemfile`:
 
 ```ruby
-gem "administrate-field-ckeditor", "~> 0.0.3"
+gem "administrate-field-ckeditor", "~> 0.0.4"
 ```
 
 Run:

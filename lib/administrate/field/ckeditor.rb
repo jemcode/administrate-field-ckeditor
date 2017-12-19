@@ -8,6 +8,7 @@ module Administrate
     class Ckeditor < Administrate::Field::Text
       class Engine < ::Rails::Engine
         Administrate::Engine.add_javascript "administrate-field-ckeditor/application"
+        Administrate::Engine.add_stylesheet "administrate-field-ckeditor/application"
       end
 
       include ActionView::Helpers::SanitizeHelper

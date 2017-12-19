@@ -1,0 +1,3 @@
+.field-unit--ckeditor .field-unit__field {
+  width: calc(85% - 2rem);
+}

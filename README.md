@@ -2,7 +2,7 @@
 
 [![Code Climate](https://codeclimate.com/github/jemcode/administrate-field-ckeditor/badges/gpa.svg)](https://codeclimate.com/github/jemcode/administrate-field-ckeditor)
 
-A plugin for adding [Ckeditor] support in [Administrate].
+A plugin for adding [CKEditor] support in [Administrate].
 
 ## Usage
 
@@ -25,14 +25,14 @@ ATTRIBUTE_TYPES = [
 ]
 ```
 
-Or with ckeditor options:
+Or with CKEditor options:
 ```ruby
 ATTRIBUTE_TYPES = [
   bars: Field::Ckeditor.with_options({ ckeditor: { uiColor: '#800000' }}),
 ]
 ```
 
-[Ckeditor]: https://github.com/galetahub/ckeditor
+[CKEditor]: https://github.com/galetahub/ckeditor
 [Administrate]: https://github.com/thoughtbot/administrate
 
 ## About Jemcode
